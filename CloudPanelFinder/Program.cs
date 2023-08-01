@@ -48,7 +48,7 @@ namespace CloudPanelFinder
 
             if (!VulnsInputted.Any())
             {
-                AnsiConsole.Write(new Markup($"[red]ERROR: we have no proxies to test.[/]"));
+                AnsiConsole.Write(new Markup($"[red]ERROR: we have no vulns to test.[/]"));
                 Environment.Exit(0);
             }
 
